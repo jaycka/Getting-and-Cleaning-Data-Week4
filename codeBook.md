@@ -616,25 +616,25 @@ And each of the following variables were measured/recorded against each activity
 
 # Transformation
     1. Merges the training and the test sets to create one data set.
-       a. Load and modify both the training and test data sets
-       b. Add feature names
-       c. Merge the training and test data sets by rbind().
+        a. Load and modify both the training and test data sets
+        b. Add feature names
+        c. Merge the training and test data sets by rbind().
        
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
-       a. Apply grepl function to grab features containe the text of 'mean..' or 'std..'.
-       
-    3. Uses descriptive activity names to name the activities in the data set
-       a. Read both test label files
-       b. Merge the two tables into one data frame
-       c. Replace test label numbers with actual acitivity  names
-       d. Add activity names and return the value
+        a. Apply grepl function to grab features containe the text of 'mean..' or 'std..'.
+    
+    3. Uses descriptive activity names to name the activities in the data set
+        a. Read both test label files
+        b. Merge the two tables into one data frame
+        c. Replace test label numbers with actual acitivity  names
+        d. Add activity names and return the value
        
     4. Appropriately labels the data set with descriptive variable names.
-       a. Labels the data set when reading the table with col.name() function
+        a. Labels the data set when reading the table with col.name() function
        
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-       a. Read in both test and train subject files
-       b. Combine subject files into one dataframe
-       c. Add subject attribute to x
-       d. Tidy data set with the average of each variable for each activity and each subject
-       e. Write output to file TidyData.txt
+        a. Read in both test and train subject files
+        b. Combine subject files into one dataframe
+        c. Add subject attribute to x
+        d. Tidy data set with the average of each variable for each activity and each subject
+        e. Write output to file TidyData.txt
