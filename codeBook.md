@@ -621,15 +621,17 @@ And each of the following variables were measured/recorded against each activity
        c. Merge the training and test data sets by rbind().
        
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
-    
-    3. Uses descriptive activity names to name the activities in the data set
+       a. Apply grepl function to grab features containe the text of 'mean..' or 'std..'.
+       
+    3. Uses descriptive activity names to name the activities in the data set
        a. Read both test label files
        b. Merge the two tables into one data frame
        c. Replace test label numbers with actual acitivity  names
        d. Add activity names and return the value
        
     4. Appropriately labels the data set with descriptive variable names.
-    
+       a. Labels the data set when reading the table with col.name() function
+       
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
        a. Read in both test and train subject files
        b. Combine subject files into one dataframe
