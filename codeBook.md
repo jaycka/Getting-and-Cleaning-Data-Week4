@@ -613,27 +613,28 @@ And each of the following variables were measured/recorded against each activity
     559 angle(X,gravityMean)
     560 angle(Y,gravityMean)
     561 angle(Z,gravityMean)
+    
 # Data
 
 The set of variables that were estimated from above signals are, only mean() and std() are selected in this study: 
 
-    1  mean(): Mean value
-    2  std(): Standard deviation
-    3  mad(): Median absolute deviation 
-    4  max(): Largest value in array
-    5  min(): Smallest value in array
-    6  sma(): Signal magnitude area
-    7  energy(): Energy measure. Sum of the squares divided by the number of values. 
-    8  iqr(): Interquartile range 
-    9  entropy(): Signal entropy
-    10 arCoeff(): Autorregresion coefficients with Burg order equal to 4
-    11 correlation(): correlation coefficient between two signals
-    12 maxInds(): index of the frequency component with largest magnitude
-    13 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-    14 skewness(): skewness of the frequency domain signal 
-    15 kurtosis(): kurtosis of the frequency domain signal 
-    16 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-    17 angle(): Angle between to vectors.
+        1  mean(): Mean value
+        2  std(): Standard deviation
+        3  mad(): Median absolute deviation 
+        4  max(): Largest value in array
+        5  min(): Smallest value in array
+        6  sma(): Signal magnitude area
+        7  energy(): Energy measure. Sum of the squares divided by the number of values. 
+        8  iqr(): Interquartile range 
+        9  entropy(): Signal entropy
+        10 arCoeff(): Autorregresion coefficients with Burg order equal to 4
+        11 correlation(): correlation coefficient between two signals
+        12 maxInds(): index of the frequency component with largest magnitude
+        13 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+        14 skewness(): skewness of the frequency domain signal 
+        15 kurtosis(): kurtosis of the frequency domain signal 
+        16 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+        17 angle(): Angle between to vectors.
 
 # Transformation
     1. Merges the training and the test sets to create one data set.
