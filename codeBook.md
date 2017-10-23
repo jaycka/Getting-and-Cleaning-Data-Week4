@@ -1,4 +1,4 @@
-# The data
+# Variables
 
 ## Subject (30)
 
@@ -613,4 +613,6 @@ And each of the following variables were measured/recorded against each activity
     559 angle(X,gravityMean)
     560 angle(Y,gravityMean)
     561 angle(Z,gravityMean)
+
+## Data
 
